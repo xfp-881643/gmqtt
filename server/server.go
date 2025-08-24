@@ -1422,7 +1422,7 @@ func (srv *server) loadPlugins() error {
 	return nil
 }
 
-func (srv *server) wsHandler() http.HandlerFunc {
+func (srv *server) WsHandler() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		c, err := defaultUpgrader.Upgrade(w, r, nil)
 		if err != nil {
@@ -1472,7 +1472,7 @@ func (srv *server) Run() (err error) {
 	}
 	for _, server := range srv.websocketServer {
 		mux := http.NewServeMux()
-		mux.Handle(server.Path, srv.wsHandler())
+		mux.Handle(server.Path, srv.WsHandler())
 		server.Server.Handler = mux
 		go srv.serveWebSocket(server)
 	}
