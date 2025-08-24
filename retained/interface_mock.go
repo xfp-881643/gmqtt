@@ -5,9 +5,10 @@
 package retained
 
 import (
-	gmqtt "github.com/DrmagicE/gmqtt"
-	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
+
+	gomock "github.com/golang/mock/gomock"
+	gmqtt "github.com/xfp-881643/gmqtt"
 )
 
 // MockStore is a mock of Store interface

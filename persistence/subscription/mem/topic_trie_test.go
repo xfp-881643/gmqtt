@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/DrmagicE/gmqtt"
-	"github.com/DrmagicE/gmqtt/pkg/packets"
+	"github.com/xfp-881643/gmqtt"
+	"github.com/xfp-881643/gmqtt/pkg/packets"
 )
 
 var testTopicMatch = []struct {

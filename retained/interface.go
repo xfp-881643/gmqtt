@@ -1,7 +1,7 @@
 package retained
 
 import (
-	"github.com/DrmagicE/gmqtt"
+	"github.com/xfp-881643/gmqtt"
 )
 
 // IterateFn is the callback function used by iterate()

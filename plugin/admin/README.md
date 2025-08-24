@@ -4,7 +4,7 @@ Admin plugin use [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) 
 
 # API Doc
  
-See [swagger](https://github.com/DrmagicE/gmqtt/blob/master/plugin/admin/swagger)
+See [swagger](https://github.com/xfp-881643/gmqtt/blob/master/plugin/admin/swagger)
 
 # Examples
 

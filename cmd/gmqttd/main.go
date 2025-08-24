@@ -8,10 +8,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/DrmagicE/gmqtt/cmd/gmqttd/command"
-	_ "github.com/DrmagicE/gmqtt/persistence"
-	_ "github.com/DrmagicE/gmqtt/plugin/prometheus"
-	_ "github.com/DrmagicE/gmqtt/topicalias/fifo"
+	"github.com/xfp-881643/gmqtt/cmd/gmqttd/command"
+	_ "github.com/xfp-881643/gmqtt/persistence"
+	_ "github.com/xfp-881643/gmqtt/plugin/prometheus"
+	_ "github.com/xfp-881643/gmqtt/topicalias/fifo"
 )
 
 var (

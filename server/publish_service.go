@@ -1,6 +1,6 @@
 package server
 
-import "github.com/DrmagicE/gmqtt"
+import "github.com/xfp-881643/gmqtt"
 
 type publishService struct {
 	server *server

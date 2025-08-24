@@ -3,8 +3,8 @@ package server
 import (
 	"net"
 
-	"github.com/DrmagicE/gmqtt/config"
-	"github.com/DrmagicE/gmqtt/retained"
+	"github.com/xfp-881643/gmqtt/config"
+	"github.com/xfp-881643/gmqtt/retained"
 	"go.uber.org/zap"
 )
 

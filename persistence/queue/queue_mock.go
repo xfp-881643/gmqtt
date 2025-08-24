@@ -5,9 +5,10 @@
 package queue
 
 import (
-	packets "github.com/DrmagicE/gmqtt/pkg/packets"
-	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
+
+	gomock "github.com/golang/mock/gomock"
+	packets "github.com/xfp-881643/gmqtt/pkg/packets"
 )
 
 // MockStore is a mock of Store interface

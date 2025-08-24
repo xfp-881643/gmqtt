@@ -3,8 +3,8 @@ package trie
 import (
 	"strings"
 
-	"github.com/DrmagicE/gmqtt"
-	"github.com/DrmagicE/gmqtt/retained"
+	"github.com/xfp-881643/gmqtt"
+	"github.com/xfp-881643/gmqtt/retained"
 )
 
 // topicTrie

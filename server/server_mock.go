@@ -6,9 +6,10 @@ package server
 
 import (
 	context "context"
-	config "github.com/DrmagicE/gmqtt/config"
-	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
+
+	gomock "github.com/golang/mock/gomock"
+	config "github.com/xfp-881643/gmqtt/config"
 )
 
 // MockServer is a mock of Server interface

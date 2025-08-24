@@ -7,9 +7,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/DrmagicE/gmqtt"
-	"github.com/DrmagicE/gmqtt/persistence/subscription"
-	"github.com/DrmagicE/gmqtt/server"
+	"github.com/xfp-881643/gmqtt"
+	"github.com/xfp-881643/gmqtt/persistence/subscription"
+	"github.com/xfp-881643/gmqtt/server"
 )
 
 func TestSubscriptionService_List(t *testing.T) {

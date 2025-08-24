@@ -6,8 +6,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/DrmagicE/gmqtt"
-	"github.com/DrmagicE/gmqtt/pkg/packets"
+	"github.com/xfp-881643/gmqtt"
+	"github.com/xfp-881643/gmqtt/pkg/packets"
 )
 
 // EncodeMessage encodes message into bytes and write it to the buffer

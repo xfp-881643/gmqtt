@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/status"
 	"gopkg.in/yaml.v2"
 
-	"github.com/DrmagicE/gmqtt/config"
+	"github.com/xfp-881643/gmqtt/config"
 )
 
 func TestAuth_List_Get_Delete(t *testing.T) {

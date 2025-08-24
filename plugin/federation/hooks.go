@@ -4,9 +4,9 @@ import (
 	"context"
 	"sort"
 
-	"github.com/DrmagicE/gmqtt"
-	"github.com/DrmagicE/gmqtt/persistence/subscription"
-	"github.com/DrmagicE/gmqtt/server"
+	"github.com/xfp-881643/gmqtt"
+	"github.com/xfp-881643/gmqtt/persistence/subscription"
+	"github.com/xfp-881643/gmqtt/server"
 )
 
 func (f *Federation) HookWrapper() server.HookWrapper {

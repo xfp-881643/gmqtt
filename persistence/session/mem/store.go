@@ -3,8 +3,8 @@ package mem
 import (
 	"sync"
 
-	"github.com/DrmagicE/gmqtt"
-	"github.com/DrmagicE/gmqtt/persistence/session"
+	"github.com/xfp-881643/gmqtt"
+	"github.com/xfp-881643/gmqtt/persistence/session"
 )
 
 var _ session.Store = (*Store)(nil)

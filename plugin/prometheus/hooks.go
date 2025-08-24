@@ -1,7 +1,7 @@
 package prometheus
 
 import (
-	"github.com/DrmagicE/gmqtt/server"
+	"github.com/xfp-881643/gmqtt/server"
 )
 
 func (p *Prometheus) HookWrapper() server.HookWrapper {
