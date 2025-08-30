@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/xfp-881643/gmqtt"
-	"github.com/xfp-881643/gmqtt/config"
-	"github.com/xfp-881643/gmqtt/persistence/subscription"
-	"github.com/xfp-881643/gmqtt/persistence/subscription/mem"
-	"github.com/xfp-881643/gmqtt/server"
+	"github.com/DrmagicE/gmqtt"
+	"github.com/DrmagicE/gmqtt/config"
+	"github.com/DrmagicE/gmqtt/persistence/subscription"
+	"github.com/DrmagicE/gmqtt/persistence/subscription/mem"
+	"github.com/DrmagicE/gmqtt/server"
 )
 
 func init() {

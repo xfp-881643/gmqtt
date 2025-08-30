@@ -38,7 +38,7 @@ packages:
   - federation
   - auth
   # for external plugin, use full import path
-  # - github.com/xfp-881643/gmqtt/plugin/prometheu
+  # - github.com/DrmagicE/gmqtt/plugin/prometheu
 ```
 
 ## 4. Run `go generate ./...`

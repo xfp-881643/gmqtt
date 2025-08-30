@@ -5,10 +5,9 @@
 package subscription
 
 import (
-	reflect "reflect"
-
+	gmqtt "github.com/DrmagicE/gmqtt"
 	gomock "github.com/golang/mock/gomock"
-	gmqtt "github.com/xfp-881643/gmqtt"
+	reflect "reflect"
 )
 
 // MockStore is a mock of Store interface

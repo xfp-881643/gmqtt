@@ -3,8 +3,8 @@ package admin
 import (
 	"context"
 
-	"github.com/xfp-881643/gmqtt"
-	"github.com/xfp-881643/gmqtt/server"
+	"github.com/DrmagicE/gmqtt"
+	"github.com/DrmagicE/gmqtt/server"
 )
 
 func (a *Admin) HookWrapper() server.HookWrapper {

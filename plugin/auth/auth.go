@@ -16,9 +16,9 @@ import (
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/yaml.v2"
 
-	"github.com/xfp-881643/gmqtt/config"
-	"github.com/xfp-881643/gmqtt/plugin/admin"
-	"github.com/xfp-881643/gmqtt/server"
+	"github.com/DrmagicE/gmqtt/config"
+	"github.com/DrmagicE/gmqtt/plugin/admin"
+	"github.com/DrmagicE/gmqtt/server"
 )
 
 var _ server.Plugin = (*Auth)(nil)

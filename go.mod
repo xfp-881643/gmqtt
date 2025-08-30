@@ -1,4 +1,4 @@
-module github.com/xfp-881643/gmqtt
+module github.com/DrmagicE/gmqtt
 
 go 1.23.0
 

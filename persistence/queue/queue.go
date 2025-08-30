@@ -3,7 +3,7 @@ package queue
 import (
 	"time"
 
-	"github.com/xfp-881643/gmqtt/pkg/packets"
+	"github.com/DrmagicE/gmqtt/pkg/packets"
 )
 
 // InitOptions is used to pass some required client information to the queue.Init()

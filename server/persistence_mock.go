@@ -5,14 +5,13 @@
 package server
 
 import (
-	reflect "reflect"
-
+	config "github.com/DrmagicE/gmqtt/config"
+	queue "github.com/DrmagicE/gmqtt/persistence/queue"
+	session "github.com/DrmagicE/gmqtt/persistence/session"
+	subscription "github.com/DrmagicE/gmqtt/persistence/subscription"
+	unack "github.com/DrmagicE/gmqtt/persistence/unack"
 	gomock "github.com/golang/mock/gomock"
-	config "github.com/xfp-881643/gmqtt/config"
-	queue "github.com/xfp-881643/gmqtt/persistence/queue"
-	session "github.com/xfp-881643/gmqtt/persistence/session"
-	subscription "github.com/xfp-881643/gmqtt/persistence/subscription"
-	unack "github.com/xfp-881643/gmqtt/persistence/unack"
+	reflect "reflect"
 )
 
 // MockPersistence is a mock of Persistence interface

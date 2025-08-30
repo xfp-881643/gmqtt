@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/xfp-881643/gmqtt/pkg/codes"
+	"github.com/DrmagicE/gmqtt/pkg/codes"
 )
 
 func TestWriteConnack_V5(t *testing.T) {

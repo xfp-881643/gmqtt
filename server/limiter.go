@@ -3,8 +3,8 @@ package server
 import (
 	"sync"
 
-	"github.com/xfp-881643/gmqtt/pkg/bitmap"
-	"github.com/xfp-881643/gmqtt/pkg/packets"
+	"github.com/DrmagicE/gmqtt/pkg/bitmap"
+	"github.com/DrmagicE/gmqtt/pkg/packets"
 )
 
 func newPacketIDLimiter(limit uint16) *packetIDLimiter {

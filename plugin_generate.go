@@ -1,4 +1,3 @@
-//go:build ignore
 // +build ignore
 
 package main
@@ -30,7 +29,7 @@ import (
 const (
 	pluginFile = "./cmd/gmqttd/plugins.go"
 	pluginCfg  = "plugin_imports.yml"
-	importPath = "github.com/xfp-881643/gmqtt/plugin"
+	importPath = "github.com/DrmagicE/gmqtt/plugin"
 )
 
 type ymlCfg struct {

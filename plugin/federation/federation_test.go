@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/xfp-881643/gmqtt"
-	"github.com/xfp-881643/gmqtt/persistence/subscription/mem"
-	"github.com/xfp-881643/gmqtt/pkg/packets"
-	"github.com/xfp-881643/gmqtt/server"
+	"github.com/DrmagicE/gmqtt"
+	"github.com/DrmagicE/gmqtt/persistence/subscription/mem"
+	"github.com/DrmagicE/gmqtt/pkg/packets"
+	"github.com/DrmagicE/gmqtt/server"
 )
 
 func TestLocalSubStore_init(t *testing.T) {

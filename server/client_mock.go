@@ -5,13 +5,12 @@
 package server
 
 import (
+	gmqtt "github.com/DrmagicE/gmqtt"
+	packets "github.com/DrmagicE/gmqtt/pkg/packets"
+	gomock "github.com/golang/mock/gomock"
 	net "net"
 	reflect "reflect"
 	time "time"
-
-	gomock "github.com/golang/mock/gomock"
-	gmqtt "github.com/xfp-881643/gmqtt"
-	packets "github.com/xfp-881643/gmqtt/pkg/packets"
 )
 
 // MockClient is a mock of Client interface

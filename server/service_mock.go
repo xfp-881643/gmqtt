@@ -5,13 +5,12 @@
 package server
 
 import (
-	reflect "reflect"
-
+	gmqtt "github.com/DrmagicE/gmqtt"
+	session "github.com/DrmagicE/gmqtt/persistence/session"
+	subscription "github.com/DrmagicE/gmqtt/persistence/subscription"
+	retained "github.com/DrmagicE/gmqtt/retained"
 	gomock "github.com/golang/mock/gomock"
-	gmqtt "github.com/xfp-881643/gmqtt"
-	session "github.com/xfp-881643/gmqtt/persistence/session"
-	subscription "github.com/xfp-881643/gmqtt/persistence/subscription"
-	retained "github.com/xfp-881643/gmqtt/retained"
+	reflect "reflect"
 )
 
 // MockPublisher is a mock of Publisher interface

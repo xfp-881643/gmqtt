@@ -8,10 +8,10 @@ import (
 	"github.com/hashicorp/serf/serf"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/xfp-881643/gmqtt"
-	"github.com/xfp-881643/gmqtt/persistence/subscription/mem"
-	"github.com/xfp-881643/gmqtt/retained"
-	"github.com/xfp-881643/gmqtt/retained/trie"
+	"github.com/DrmagicE/gmqtt"
+	"github.com/DrmagicE/gmqtt/persistence/subscription/mem"
+	"github.com/DrmagicE/gmqtt/retained"
+	"github.com/DrmagicE/gmqtt/retained/trie"
 )
 
 func TestPeer_initStream_CleanStart(t *testing.T) {

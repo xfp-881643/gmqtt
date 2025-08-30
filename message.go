@@ -1,7 +1,7 @@
 package gmqtt
 
 import (
-	"github.com/xfp-881643/gmqtt/pkg/packets"
+	"github.com/DrmagicE/gmqtt/pkg/packets"
 )
 
 type Message struct {

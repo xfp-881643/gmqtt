@@ -7,9 +7,9 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 
-	"github.com/xfp-881643/gmqtt"
-	"github.com/xfp-881643/gmqtt/persistence/encoding"
-	"github.com/xfp-881643/gmqtt/persistence/session"
+	"github.com/DrmagicE/gmqtt"
+	"github.com/DrmagicE/gmqtt/persistence/encoding"
+	"github.com/DrmagicE/gmqtt/persistence/session"
 )
 
 const (

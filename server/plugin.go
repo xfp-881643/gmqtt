@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/xfp-881643/gmqtt/config"
+	"github.com/DrmagicE/gmqtt/config"
 )
 
 // HookWrapper groups all hook wrappers function

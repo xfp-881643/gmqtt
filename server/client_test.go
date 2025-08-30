@@ -16,16 +16,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/xfp-881643/gmqtt"
-	"github.com/xfp-881643/gmqtt/config"
-	"github.com/xfp-881643/gmqtt/persistence/queue"
-	"github.com/xfp-881643/gmqtt/persistence/subscription"
-	"github.com/xfp-881643/gmqtt/persistence/subscription/mem"
-	"github.com/xfp-881643/gmqtt/persistence/unack"
-	unack_mem "github.com/xfp-881643/gmqtt/persistence/unack/mem"
-	"github.com/xfp-881643/gmqtt/pkg/codes"
-	"github.com/xfp-881643/gmqtt/pkg/packets"
-	"github.com/xfp-881643/gmqtt/retained"
+	"github.com/DrmagicE/gmqtt"
+	"github.com/DrmagicE/gmqtt/config"
+	"github.com/DrmagicE/gmqtt/persistence/queue"
+	"github.com/DrmagicE/gmqtt/persistence/subscription"
+	"github.com/DrmagicE/gmqtt/persistence/subscription/mem"
+	"github.com/DrmagicE/gmqtt/persistence/unack"
+	unack_mem "github.com/DrmagicE/gmqtt/persistence/unack/mem"
+	"github.com/DrmagicE/gmqtt/pkg/codes"
+	"github.com/DrmagicE/gmqtt/pkg/packets"
+	"github.com/DrmagicE/gmqtt/retained"
 )
 
 const testRedeliveryInternal = 10 * time.Second

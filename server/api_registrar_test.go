@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 
-	"github.com/xfp-881643/gmqtt/config"
+	"github.com/DrmagicE/gmqtt/config"
 )
 
 func TestAPIRegistrar_serveAPIServer(t *testing.T) {
